@@ -1,0 +1,43 @@
+@mixin allIcon{
+    min-height: 24px;
+    min-width: 24px;
+    background-repeat: no-repeat;
+}
+
+.east_black{
+    @include allIcon();
+    background-image: url("../../assets/east_black_24dp.svg");
+}
+.east_white{
+    @include allIcon();
+    background-image: url("../../assets/east_white_24dp.svg");
+}
+.place_black{
+    @include allIcon();
+    background-image: url("../../assets/place_black_24dp.svg");
+}
+.expandmore_black{
+    @include allIcon();
+    background-image: url("../../assets/expand_more_black_24dp.svg");
+}
+
+.expandmore_white{
+    @include allIcon();
+    background-image: url("../../assets/expand_more_white_24dp.svg");
+}
+.shopping_cart_black{
+    @include allIcon();
+    background-image: url("../../assets/shopping_cart_black_24dp.svg");
+}
+.heart_black{
+    @include allIcon();
+    background-image: url("../../assets/favorite_border_black_24dp.svg");
+}
+.heart_filled{
+    @include allIcon();
+    background-image: url("../../assets/heart_filled.svg");
+}
+.person_black{
+    @include allIcon();
+    background-image: url("../../assets/person_outline_black_24dp.svg");
+}

@@ -1,0 +1,26 @@
+@import "./mixins";
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.btnPrimary{
+    @include btnPrimary;
+}
+
+.btnSecondary{
+    @include btnSecondary;
+}
+
+.Heading{
+    font-size: 42px;
+    display: flex;
+    margin: 24px 0px; 
+    .primary{
+        color: $primary;
+    }
+}
+.sectionGap{
+    margin: 32px auto;
+}

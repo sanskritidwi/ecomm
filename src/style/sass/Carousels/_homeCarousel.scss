@@ -1,0 +1,28 @@
+.HomeCarouselWrapper{
+    display: flex;
+    .bgImage{
+        .cover{
+           opacity: 0.3;
+
+        }
+        max-height: 500px;
+        width: 100%;
+        background-repeat: repeat;
+        overflow: hidden;
+        position: relative;
+        .posters{
+            position: absolute;
+                top: 8%;
+                left: 20%;
+            .subscribePoster{
+                
+                img{
+                    border-radius: 8px;
+                    max-height: 400px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+   
+}

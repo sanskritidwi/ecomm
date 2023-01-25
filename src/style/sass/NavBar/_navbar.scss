@@ -1,0 +1,29 @@
+@import "../common/variables";
+.NavbarWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px 0px;
+    .mainIcons{
+        display: flex;
+        .navIcons{
+            display: flex;
+            align-items: center;
+            position: relative;
+            .notif{
+                background-color: $primary;
+                border-radius: 50%;
+                padding: 4px;
+                color: white;
+                position: absolute;
+                top: 5px;
+                left: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+.LogoWrapper{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+}
